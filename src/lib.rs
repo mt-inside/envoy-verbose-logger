@@ -3,6 +3,8 @@ use proxy_wasm::traits::*;
 use proxy_wasm::types::*;
 
 /* TODO
+ * - rename to VerboseLogger
+ * - add examples of Istio yaml to deploy and use
  * - add to the dynamic metadata, so they can be logged that way (https://themartian.hashnode.dev/http-request-body-logging-with-istio-and-envoy)
  * - take config to enable / disable the four parts, for performance
  * - take config with regex, match and print only that in body
